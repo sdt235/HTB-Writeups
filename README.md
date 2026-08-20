@@ -10,8 +10,10 @@ Writeups for [Hack The Box](https://www.hackthebox.com/) machines I've completed
 | [Blue](blue-writeup.md) | Windows | Easy | MS17-010 (EternalBlue) |
 | [Certified](certified-writeup.md) | Windows (AD) | Medium | ACL abuse (WriteOwner → DACL write), Shadow Credentials, ADCS ESC9 (No Security Extension) |
 | [Nexus](nexus-writeup.md) | Linux | Easy (rated) / Medium (practice) | Vhost fuzzing, Git history secret mining, authenticated file upload RCE, path traversal via hand-crafted Git objects |
-| [PermX](permx-writeup.md) | Linux | Easy | Chamilo LMS unauthenticated big-upload RCE (CVE-2023-4220) |
-| [Sense](sense-writeup.md) | FreeBSD (pfSense) | Medium | Directory brute-forcing, information disclosure (enumeration only — see writeup) |
+| [PermX](permx-writeup.md) ⚠️ | Linux | Easy | Chamilo LMS unauthenticated big-upload RCE (CVE-2023-4220) |
+| [Sense](sense-writeup.md) ⚠️ | FreeBSD (pfSense) | Medium | Directory brute-forcing, information disclosure (enumeration only — see writeup) |
+
+⚠️ = incomplete — see note below.
 
 ## Challenges
 
@@ -22,3 +24,8 @@ Writeups for [Hack The Box](https://www.hackthebox.com/) machines I've completed
 ## Structure
 
 Machine writeups generally follow: Overview → Recon → per-service enumeration/exploitation → User → Privilege Escalation → Summary of Techniques → Lessons/Takeaways. Earlier writeups are less formally structured.
+
+## Known Gaps
+
+- **PermX**: the steps between finding the CVE-2023-4220 Chamilo file upload vulnerability and recovering the SSH credential for `mtz` are missing from the write-up and need to be filled in.
+- **Sense**: currently enumeration-only — exploitation, privilege escalation, and flag capture still need to be added.
