@@ -176,7 +176,7 @@ backup  reset.sh  root.txt
 
 `root.txt` retrieved.
 
-![placeholder: screenshot showing the root shell / root.txt contents on PermX, referenced as image.png in the original notes but not carried over to this repo]
+![root shell / root.txt on PermX](screenshots/permx_root_flag.png)
 
 ---
 
