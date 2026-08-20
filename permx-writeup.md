@@ -176,7 +176,7 @@ backup  reset.sh  root.txt
 
 `root.txt` retrieved.
 
-![root shell / root.txt on PermX](screenshots/permx_root_flag.png)
+![root shell / root.txt on PermX](images/permx_root_flag.png)
 
 ---
 

@@ -111,7 +111,7 @@ Loading the resulting JSON into BloodHound CE and marking `judith.mader` as owne
 2. **Management** → `GenericWrite` → **management_svc** (user)
 3. **management_svc** → `GenericAll` → **ca_operator** (user)
 
-![Screenshot of BloodHound showing the WriteOwner edge from judith.mader to the Management group, with judith.mader's node details panel open on the right (SAM account name, owner SID, password metadata, 6 group memberships, 1 outbound object control edge)](screenshots/bloodhound_write_owner.png)
+![Screenshot of BloodHound showing the WriteOwner edge from judith.mader to the Management group, with judith.mader's node details panel open on the right (SAM account name, owner SID, password metadata, 6 group memberships, 1 outbound object control edge)](images/bloodhound_write_owner.png)
 
 The name `ca_operator` was a strong hint that this account was tied into Active Directory Certificate Services (ADCS) — worth investigating once compromised.
 
