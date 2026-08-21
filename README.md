@@ -9,6 +9,7 @@ Writeups for [Hack The Box](https://www.hackthebox.com/) machines I've completed
 | [Blackfield](blackfield-writeup.md) | Windows (AD / DC) | Hard | SMB null session enum, AS-REP roasting, BloodHound DACL abuse, LSASS dump, `SeBackupPrivilege`, VSC `ntds.dit` extraction, pass-the-hash |
 | [Blue](blue-writeup.md) | Windows | Easy | MS17-010 (EternalBlue) |
 | [Certified](certified-writeup.md) | Windows (AD) | Medium | ACL abuse (WriteOwner → DACL write), Shadow Credentials, ADCS ESC9 (No Security Extension) |
+| [Fluffy](fluffy-writeup.md) | Windows (AD / DC) | Medium | CVE-2025-24071 `.library-ms` NTLM leak, nested-group ACL abuse, Shadow Credentials, ADCS ESC16 (CA-wide disabled Security Extension) |
 | [Nexus](nexus-writeup.md) | Linux | Easy (rated) / Medium (practice) | Vhost fuzzing, Git history secret mining, authenticated file upload RCE, path traversal via hand-crafted Git objects |
 | [PermX](permx-writeup.md) ⚠️ | Linux | Easy | Chamilo LMS unauthenticated big-upload RCE (CVE-2023-4220) |
 | [Sense](sense-writeup.md) ⚠️ | FreeBSD (pfSense) | Medium | Directory brute-forcing, information disclosure (enumeration only — see writeup) |
