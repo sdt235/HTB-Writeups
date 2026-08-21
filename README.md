@@ -12,7 +12,7 @@ Writeups for [Hack The Box](https://www.hackthebox.com/) machines I've completed
 | [Nexus](nexus-writeup.md) | Linux | Easy (rated) / Medium (practice) | Vhost fuzzing, Git history secret mining, authenticated file upload RCE, path traversal via hand-crafted Git objects |
 | [PermX](permx-writeup.md) ⚠️ | Linux | Easy | Chamilo LMS unauthenticated big-upload RCE (CVE-2023-4220) |
 | [Sense](sense-writeup.md) ⚠️ | FreeBSD (pfSense) | Medium | Directory brute-forcing, information disclosure (enumeration only — see writeup) |
-| [Signed](signed-writeup.md) | Windows (AD / DC) | — | MSSQL `xp_dirtree` NTLM coercion, RID brute-forcing, Kerberos silver ticket forgery, `OPENROWSET(BULK)` file-read-as-Domain-Admin via ticket group injection |
+| [Signed](signed-writeup.md) | Windows (AD / DC) | Medium | MSSQL `xp_dirtree` NTLM coercion, RID brute-forcing, Kerberos silver ticket forgery, `OPENROWSET(BULK)` file-read-as-Domain-Admin via ticket group injection |
 
 ⚠️ = incomplete — see note below.
 
