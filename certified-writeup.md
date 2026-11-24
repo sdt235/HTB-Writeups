@@ -1,7 +1,7 @@
 # HTB: Certified — Writeup
 
-**Difficulty:** Medium
 **OS:** Windows (Active Directory)
+**Difficulty:** Medium
 **Techniques:** Assumed-breach AD enumeration, ACL abuse (WriteOwner → DACL write → group membership), Shadow Credentials (GenericWrite/GenericAll abuse), ADCS ESC9 (No Security Extension) via UPN manipulation
 
 ---

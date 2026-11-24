@@ -1,7 +1,7 @@
 # HTB: Nexus — Writeup
 
-**Difficulty:** Easy (rated) / Medium (in practice)
 **OS:** Linux
+**Difficulty:** Easy (rated) / Medium (in practice)
 **Techniques:** Virtual host fuzzing, Git history secret mining, authenticated file upload RCE (CVE-2026-38526), credential reuse, path traversal via hand-crafted Git objects
 
 ---

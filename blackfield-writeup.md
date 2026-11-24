@@ -1,7 +1,7 @@
 # HTB: Blackfield — Writeup
 
-**Difficulty:** Hard
 **OS:** Windows (Active Directory / Domain Controller)
+**Difficulty:** Hard
 **Techniques:** SMB null session enumeration, AS-REP roasting, BloodHound DACL abuse (`ForceChangePassword`), RPC password reset, LSASS memory dump credential extraction, `SeBackupPrivilege` abuse, Volume Shadow Copy via `diskshadow`, `ntds.dit`/SYSTEM hive exfiltration, offline DC hash dump, pass-the-hash
 
 ---

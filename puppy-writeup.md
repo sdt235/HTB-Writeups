@@ -1,8 +1,7 @@
 # HTB: Puppy — Writeup
 
-**Difficulty:** Medium
 **OS:** Windows (Active Directory)
-**Domain:** `PUPPY.HTB` (DC: `dc.puppy.htb`, 10.129.232.75)
+**Difficulty:** Medium
 **Techniques:** Assumed-breach AD enumeration (BloodHound), GenericWrite group-membership abuse, KDBX4 KeePass cracking, credential harvesting & password spray, GenericAll password reset + `ACCOUNTDISABLE` removal, backup-archive credential leakage (LDAP bind creds), DPAPI masterkey/credential decryption
 
 ---

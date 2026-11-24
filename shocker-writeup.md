@@ -1,8 +1,7 @@
 # HTB: Shocker — Writeup
 
-**Difficulty:** Easy
 **OS:** Linux
-**Release:** Retired
+**Difficulty:** Easy
 **Techniques:** CGI script fuzzing, Shellshock (CVE-2014-6271) CGI remote code execution, `sudo perl` NOPASSWD privilege escalation
 
 ---

@@ -1,7 +1,7 @@
 # HTB: Blue — Writeup
 
-**Difficulty:** Easy
 **OS:** Windows
+**Difficulty:** Easy
 **Techniques:** MS17-010 (EternalBlue) SMB remote code execution
 
 ---

@@ -1,12 +1,6 @@
 # HTB: Signed — Writeup
 
-**Status:** Rooted — `root.txt` retrieved via SQL-level file read. Full interactive Administrator/SYSTEM shell not yet obtained (see "Outstanding" below).
 **OS:** Windows (Domain Controller)
-**Scenario:** Assumed breach — HTB supplied local MSSQL credentials for `scott`
-**Target IP:** `10.129.242.173`
-**Domain:** `signed.htb` (NetBIOS `SIGNED`)
-**Hostname:** `DC01`
-**Attacker IP:** `10.10.15.26`
 **Techniques:** MSSQL enumeration, `xp_dirtree` NTLM hash coercion, NetNTLMv2 cracking, RID brute-forcing, Kerberos silver ticket forgery, `xp_cmdshell` RCE, PowerShell reverse shell, Chisel SOCKS pivot, `OPENROWSET(BULK)` file-read-as-Domain-Admin via silver ticket group injection
 
 ---

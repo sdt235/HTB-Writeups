@@ -157,7 +157,7 @@ $ mono bypass.exe
 Enter a username: dark
 Enter a password: dark
 Please Enter the secret Key: dark
-Nice here is the Flag:HTB{SuP3rC00lFL4g}
+Nice here is the Flag:HTB{S...g}
 ```
 
 ---
@@ -165,7 +165,7 @@ Nice here is the Flag:HTB{SuP3rC00lFL4g}
 ## Flag
 
 ```
-HTB{SuP3rC00lFL4g}
+HTB{S...g}
 ```
 
 ---

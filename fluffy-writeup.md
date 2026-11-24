@@ -1,7 +1,7 @@
 # HTB: Fluffy — Writeup
 
-**Difficulty:** Medium
 **OS:** Windows (Active Directory)
+**Difficulty:** Medium
 **Techniques:** Assumed-breach AD enumeration, CVE-2025-24071 (`.library-ms` NTLM leak via Explorer), NetNTLMv2 capture/cracking, nested-group ACL abuse (GenericAll → GenericWrite), Shadow Credentials, ADCS ESC16 (CA-wide disabled Security Extension) via UPN manipulation
 
 ---

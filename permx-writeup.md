@@ -1,7 +1,7 @@
 # HTB: PermX — Writeup
 
-**Difficulty:** Easy
 **OS:** Linux
+**Difficulty:** Easy
 **Techniques:** Virtual host fuzzing, Chamilo LMS unauthenticated file upload RCE (CVE-2023-4220), `sudo`-permitted ACL script abuse via symlink to `/etc/sudoers`
 
 ---
